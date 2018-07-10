@@ -1,0 +1,7 @@
+a simple express app that answers for any HTTP request and echoes the result back to the user.
+
+I use it primarily as a web canary when testing for blind XSS
+
+it can also mail a copy of the request to a specified email address, and uses the SendGrid API to do so. the account is free.
+
+designed to be ran behind a reverse proxy, but you can easily just have it respond to requests directly.
